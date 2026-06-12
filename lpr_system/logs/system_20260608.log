@@ -1,0 +1,335 @@
+2026-06-08 09:09:30,902 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 09:09:30,906 [INFO] Starting up TCP server on localhost:60692
+2026-06-08 09:09:30,923 [INFO] Flet app has started...
+2026-06-08 09:09:30,927 [INFO] App URL: tcp://localhost:60692
+2026-06-08 09:09:30,927 [INFO] Starting Flet View app...
+2026-06-08 09:09:30,928 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 09:09:30,928 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 09:09:32,999 [INFO] App session started
+2026-06-08 09:09:33,025 [WARNING] Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2026-06-08 09:09:34,959 [INFO] Download complete
+2026-06-08 09:09:34,959 [WARNING] Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2026-06-08 09:09:35,597 [INFO] Download complete.
+2026-06-08 09:09:56,895 [INFO] Session was garbage collected: DGo94cUdssqe1gw9
+2026-06-08 17:34:18,031 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 17:34:18,033 [INFO] Starting up TCP server on localhost:50354
+2026-06-08 17:34:18,045 [INFO] Flet app has started...
+2026-06-08 17:34:18,049 [INFO] App URL: tcp://localhost:50354
+2026-06-08 17:34:18,049 [INFO] Starting Flet View app...
+2026-06-08 17:34:18,050 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 17:34:18,050 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 17:34:19,431 [INFO] App session started
+2026-06-08 17:35:12,144 [INFO] 스트림 시작: 0 (CAM_01)
+2026-06-08 17:35:12,335 [ERROR] 스트림 열기 실패: 0 — 5초 후 재시도
+2026-06-08 17:35:17,336 [INFO] 스트림 종료: 0
+2026-06-08 18:40:03,842 [INFO] Session was garbage collected: Za9kJehqBPdd6Qt9
+2026-06-08 18:50:31,719 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 18:50:31,721 [INFO] Starting up TCP server on localhost:52793
+2026-06-08 18:50:31,739 [INFO] Flet app has started...
+2026-06-08 18:50:31,743 [INFO] App URL: tcp://localhost:52793
+2026-06-08 18:50:31,744 [INFO] Starting Flet View app...
+2026-06-08 18:50:31,744 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 18:50:31,744 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 18:50:33,689 [INFO] App session started
+2026-06-08 18:53:39,850 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 18:53:39,852 [INFO] Starting up TCP server on localhost:56704
+2026-06-08 18:53:39,868 [INFO] Flet app has started...
+2026-06-08 18:53:39,871 [INFO] App URL: tcp://localhost:56704
+2026-06-08 18:53:39,871 [INFO] Starting Flet View app...
+2026-06-08 18:53:39,871 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 18:53:39,872 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 18:53:41,547 [INFO] App session started
+2026-06-08 18:53:51,303 [INFO] Session was garbage collected: 6ORtuBjuDWhbmYTf
+2026-06-08 19:28:07,580 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 19:28:07,583 [INFO] Starting up TCP server on localhost:63845
+2026-06-08 19:28:07,598 [INFO] Flet app has started...
+2026-06-08 19:28:07,601 [INFO] App URL: tcp://localhost:63845
+2026-06-08 19:28:07,601 [INFO] Starting Flet View app...
+2026-06-08 19:28:07,601 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:28:07,602 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:28:09,541 [INFO] App session started
+2026-06-08 19:31:55,456 [INFO] Session was garbage collected: 0rTRuiEw9cJTEjQ6
+2026-06-08 19:32:35,540 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 19:32:35,543 [INFO] Starting up TCP server on localhost:57445
+2026-06-08 19:32:35,557 [INFO] Flet app has started...
+2026-06-08 19:32:35,560 [INFO] App URL: tcp://localhost:57445
+2026-06-08 19:32:35,562 [INFO] Starting Flet View app...
+2026-06-08 19:32:35,563 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:32:35,564 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:32:37,241 [INFO] App session started
+2026-06-08 19:35:23,549 [INFO] Session was garbage collected: VUroYPJ0ylHjGrPM
+2026-06-08 19:35:38,342 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 19:35:38,345 [INFO] Starting up TCP server on localhost:53374
+2026-06-08 19:35:38,357 [INFO] Flet app has started...
+2026-06-08 19:35:38,360 [INFO] App URL: tcp://localhost:53374
+2026-06-08 19:35:38,361 [INFO] Starting Flet View app...
+2026-06-08 19:35:38,361 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:35:38,362 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:35:39,890 [INFO] App session started
+2026-06-08 19:42:25,755 [INFO] Session was garbage collected: 0ojIisMGeGTYGxAX
+2026-06-08 19:42:45,710 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 19:42:45,713 [INFO] Starting up TCP server on localhost:64861
+2026-06-08 19:42:45,729 [INFO] Flet app has started...
+2026-06-08 19:42:45,735 [INFO] App URL: tcp://localhost:64861
+2026-06-08 19:42:45,735 [INFO] Starting Flet View app...
+2026-06-08 19:42:45,736 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:42:45,736 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:42:47,275 [INFO] App session started
+2026-06-08 19:45:50,191 [INFO] Session was garbage collected: SvO5qaxZykrj3LPS
+2026-06-08 19:46:15,138 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 19:46:15,140 [INFO] Starting up TCP server on localhost:58239
+2026-06-08 19:46:15,153 [INFO] Flet app has started...
+2026-06-08 19:46:15,156 [INFO] App URL: tcp://localhost:58239
+2026-06-08 19:46:15,156 [INFO] Starting Flet View app...
+2026-06-08 19:46:15,157 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:46:15,157 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:46:16,858 [INFO] App session started
+2026-06-08 19:48:01,960 [INFO] Session was garbage collected: 0rol1QaKzUcIYpia
+2026-06-08 19:48:19,586 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 19:48:19,588 [INFO] Starting up TCP server on localhost:58126
+2026-06-08 19:48:19,603 [INFO] Flet app has started...
+2026-06-08 19:48:19,606 [INFO] App URL: tcp://localhost:58126
+2026-06-08 19:48:19,606 [INFO] Starting Flet View app...
+2026-06-08 19:48:19,606 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:48:19,607 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 19:48:21,165 [INFO] App session started
+2026-06-08 20:04:27,027 [INFO] Session was garbage collected: fTOR41ddUsoh6cKI
+2026-06-08 20:04:40,805 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:04:40,808 [INFO] Starting up TCP server on localhost:51904
+2026-06-08 20:04:40,822 [INFO] Flet app has started...
+2026-06-08 20:04:40,827 [INFO] App URL: tcp://localhost:51904
+2026-06-08 20:04:40,827 [INFO] Starting Flet View app...
+2026-06-08 20:04:40,827 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:04:40,827 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:04:42,455 [INFO] App session started
+2026-06-08 20:07:42,619 [INFO] Session was garbage collected: LDjCkp1UbprDEUqM
+2026-06-08 20:07:59,269 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:07:59,271 [INFO] Starting up TCP server on localhost:51777
+2026-06-08 20:07:59,283 [INFO] Flet app has started...
+2026-06-08 20:07:59,286 [INFO] App URL: tcp://localhost:51777
+2026-06-08 20:07:59,286 [INFO] Starting Flet View app...
+2026-06-08 20:07:59,286 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:07:59,287 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:08:00,953 [INFO] App session started
+2026-06-08 20:15:48,301 [INFO] Session was garbage collected: nAkCMfIjBVNYSTzD
+2026-06-08 20:16:05,595 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:16:05,597 [INFO] Starting up TCP server on localhost:57227
+2026-06-08 20:16:05,608 [INFO] Flet app has started...
+2026-06-08 20:16:05,611 [INFO] App URL: tcp://localhost:57227
+2026-06-08 20:16:05,612 [INFO] Starting Flet View app...
+2026-06-08 20:16:05,612 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:16:05,612 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:16:07,386 [INFO] App session started
+2026-06-08 20:17:19,393 [INFO] Session was garbage collected: EPRsv5sctUEl1KRF
+2026-06-08 20:17:33,329 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:17:33,331 [INFO] Starting up TCP server on localhost:56725
+2026-06-08 20:17:33,341 [INFO] Flet app has started...
+2026-06-08 20:17:33,344 [INFO] App URL: tcp://localhost:56725
+2026-06-08 20:17:33,345 [INFO] Starting Flet View app...
+2026-06-08 20:17:33,345 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:17:33,345 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:17:34,839 [INFO] App session started
+2026-06-08 20:17:52,435 [INFO] Session was garbage collected: D2phWslSs23jQxhB
+2026-06-08 20:18:06,742 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:18:06,744 [INFO] Starting up TCP server on localhost:57790
+2026-06-08 20:18:06,758 [INFO] Flet app has started...
+2026-06-08 20:18:06,761 [INFO] App URL: tcp://localhost:57790
+2026-06-08 20:18:06,761 [INFO] Starting Flet View app...
+2026-06-08 20:18:06,761 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:18:06,762 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:18:08,389 [INFO] App session started
+2026-06-08 20:20:31,649 [INFO] Session was garbage collected: K1q029wrG5g2Vwzo
+2026-06-08 20:20:54,791 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:20:54,793 [INFO] Starting up TCP server on localhost:58361
+2026-06-08 20:20:54,809 [INFO] Flet app has started...
+2026-06-08 20:20:54,813 [INFO] App URL: tcp://localhost:58361
+2026-06-08 20:20:54,814 [INFO] Starting Flet View app...
+2026-06-08 20:20:54,814 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:20:54,814 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:20:56,520 [INFO] App session started
+2026-06-08 20:23:02,014 [INFO] Session was garbage collected: UAuqyDZuxjXZSo5B
+2026-06-08 20:23:17,294 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:23:17,296 [INFO] Starting up TCP server on localhost:54778
+2026-06-08 20:23:17,305 [INFO] Flet app has started...
+2026-06-08 20:23:17,308 [INFO] App URL: tcp://localhost:54778
+2026-06-08 20:23:17,308 [INFO] Starting Flet View app...
+2026-06-08 20:23:17,309 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:23:17,309 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:23:18,880 [INFO] App session started
+2026-06-08 20:28:46,012 [INFO] Session was garbage collected: p3LxOiM856D3lMI9
+2026-06-08 20:29:00,476 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:29:00,478 [INFO] Starting up TCP server on localhost:57118
+2026-06-08 20:29:00,489 [INFO] Flet app has started...
+2026-06-08 20:29:00,492 [INFO] App URL: tcp://localhost:57118
+2026-06-08 20:29:00,492 [INFO] Starting Flet View app...
+2026-06-08 20:29:00,493 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:29:00,493 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:29:02,073 [INFO] App session started
+2026-06-08 20:29:17,117 [INFO] Session was garbage collected: JuNW9UFmhUg7tT1g
+2026-06-08 20:29:32,752 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:29:32,754 [INFO] Starting up TCP server on localhost:58639
+2026-06-08 20:29:32,765 [INFO] Flet app has started...
+2026-06-08 20:29:32,768 [INFO] App URL: tcp://localhost:58639
+2026-06-08 20:29:32,769 [INFO] Starting Flet View app...
+2026-06-08 20:29:32,769 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:29:32,769 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:29:34,354 [INFO] App session started
+2026-06-08 20:30:00,022 [INFO] Session was garbage collected: KW33I5NBKh1nhT1g
+2026-06-08 20:30:15,288 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:30:15,291 [INFO] Starting up TCP server on localhost:58926
+2026-06-08 20:30:15,305 [INFO] Flet app has started...
+2026-06-08 20:30:15,309 [INFO] App URL: tcp://localhost:58926
+2026-06-08 20:30:15,309 [INFO] Starting Flet View app...
+2026-06-08 20:30:15,310 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:30:15,310 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:30:17,046 [INFO] App session started
+2026-06-08 20:30:22,189 [INFO] Session was garbage collected: aMLnnYHpa37lephX
+2026-06-08 20:30:35,046 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:30:35,049 [INFO] Starting up TCP server on localhost:64645
+2026-06-08 20:30:35,062 [INFO] Flet app has started...
+2026-06-08 20:30:35,067 [INFO] App URL: tcp://localhost:64645
+2026-06-08 20:30:35,067 [INFO] Starting Flet View app...
+2026-06-08 20:30:35,068 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:30:35,068 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:30:36,695 [INFO] App session started
+2026-06-08 20:30:45,286 [INFO] Session was garbage collected: KlAi8ll585qFMXdB
+2026-06-08 20:30:59,692 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:30:59,695 [INFO] Starting up TCP server on localhost:58759
+2026-06-08 20:30:59,713 [INFO] Flet app has started...
+2026-06-08 20:30:59,718 [INFO] App URL: tcp://localhost:58759
+2026-06-08 20:30:59,718 [INFO] Starting Flet View app...
+2026-06-08 20:30:59,719 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:30:59,719 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:31:01,414 [INFO] App session started
+2026-06-08 20:31:07,889 [INFO] Session was garbage collected: 3McDWKj4JIT9kkAp
+2026-06-08 20:31:20,473 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:31:20,475 [INFO] Starting up TCP server on localhost:57502
+2026-06-08 20:31:20,486 [INFO] Flet app has started...
+2026-06-08 20:31:20,488 [INFO] App URL: tcp://localhost:57502
+2026-06-08 20:31:20,489 [INFO] Starting Flet View app...
+2026-06-08 20:31:20,489 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:31:20,489 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:31:22,442 [INFO] App session started
+2026-06-08 20:31:35,905 [INFO] Session was garbage collected: U5JwKs4Li6nAczwU
+2026-06-08 20:31:50,214 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:31:50,216 [INFO] Starting up TCP server on localhost:58194
+2026-06-08 20:31:50,228 [INFO] Flet app has started...
+2026-06-08 20:31:50,232 [INFO] App URL: tcp://localhost:58194
+2026-06-08 20:31:50,232 [INFO] Starting Flet View app...
+2026-06-08 20:31:50,233 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:31:50,233 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:31:51,810 [INFO] App session started
+2026-06-08 20:32:56,318 [INFO] Session was garbage collected: MzhzKeBEzQREy0zC
+2026-06-08 20:33:11,108 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:33:11,111 [INFO] Starting up TCP server on localhost:60712
+2026-06-08 20:33:11,124 [INFO] Flet app has started...
+2026-06-08 20:33:11,128 [INFO] App URL: tcp://localhost:60712
+2026-06-08 20:33:11,128 [INFO] Starting Flet View app...
+2026-06-08 20:33:11,129 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:33:11,129 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:33:12,755 [INFO] App session started
+2026-06-08 20:33:19,409 [INFO] Session was garbage collected: gJ7rhu3CjCXrOoTt
+2026-06-08 20:33:34,764 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:33:34,767 [INFO] Starting up TCP server on localhost:55960
+2026-06-08 20:33:34,779 [INFO] Flet app has started...
+2026-06-08 20:33:34,784 [INFO] App URL: tcp://localhost:55960
+2026-06-08 20:33:34,784 [INFO] Starting Flet View app...
+2026-06-08 20:33:34,785 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:33:34,785 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:33:36,324 [INFO] App session started
+2026-06-08 20:33:48,117 [INFO] Session was garbage collected: JXV4A6Eh4fc88uo4
+2026-06-08 20:34:02,686 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:34:02,689 [INFO] Starting up TCP server on localhost:62347
+2026-06-08 20:34:02,700 [INFO] Flet app has started...
+2026-06-08 20:34:02,704 [INFO] App URL: tcp://localhost:62347
+2026-06-08 20:34:02,704 [INFO] Starting Flet View app...
+2026-06-08 20:34:02,704 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:34:02,705 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:34:04,315 [INFO] App session started
+2026-06-08 20:34:13,682 [INFO] Session was garbage collected: UhRvWcMHa1fgDXCu
+2026-06-08 20:34:28,093 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:34:28,095 [INFO] Starting up TCP server on localhost:52646
+2026-06-08 20:34:28,113 [INFO] Flet app has started...
+2026-06-08 20:34:28,117 [INFO] App URL: tcp://localhost:52646
+2026-06-08 20:34:28,118 [INFO] Starting Flet View app...
+2026-06-08 20:34:28,118 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:34:28,118 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:34:29,727 [INFO] App session started
+2026-06-08 20:34:45,205 [INFO] Session was garbage collected: 973KvuqBdLXyoKft
+2026-06-08 20:35:00,130 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:35:00,133 [INFO] Starting up TCP server on localhost:52906
+2026-06-08 20:35:00,146 [INFO] Flet app has started...
+2026-06-08 20:35:00,150 [INFO] App URL: tcp://localhost:52906
+2026-06-08 20:35:00,151 [INFO] Starting Flet View app...
+2026-06-08 20:35:00,152 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:35:00,152 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:35:01,791 [INFO] App session started
+2026-06-08 20:35:08,778 [INFO] Session was garbage collected: KFdQ8PxeezNRqrqs
+2026-06-08 20:35:24,198 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:35:24,207 [INFO] Starting up TCP server on localhost:64255
+2026-06-08 20:35:24,321 [INFO] Flet app has started...
+2026-06-08 20:35:24,338 [INFO] App URL: tcp://localhost:64255
+2026-06-08 20:35:24,339 [INFO] Starting Flet View app...
+2026-06-08 20:35:24,339 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:35:24,340 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:35:25,920 [INFO] App session started
+2026-06-08 20:36:52,092 [INFO] Session was garbage collected: yep0SZMIFQ8IVBWn
+2026-06-08 20:37:08,734 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:37:08,737 [INFO] Starting up TCP server on localhost:52327
+2026-06-08 20:37:08,748 [INFO] Flet app has started...
+2026-06-08 20:37:08,751 [INFO] App URL: tcp://localhost:52327
+2026-06-08 20:37:08,751 [INFO] Starting Flet View app...
+2026-06-08 20:37:08,752 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:37:08,752 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:37:10,388 [INFO] App session started
+2026-06-08 20:37:13,660 [ERROR] Unhandled error in main() handler
+Traceback (most recent call last):
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\app.py", line 351, in on_session_created
+    main(session.page)
+    ~~~~^^^^^^^^^^^^^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 782, in main
+    controls=[build_dashboard()],
+              ~~~~~~~~~~~~~~~^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 232, in build_dashboard
+    stat_card("전체 인식",   card_total,   ft.Icons.CAMERA_ALT_OUTLINED,   "#1f1e1e"),
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 146, in stat_card
+    ft.Row(
+    ~~~~~~^
+        [ft.Text("0", size=30, weight=ft.FontWeight.W_700,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        color=C_TEXT, ref=ref)],
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+        alignment=ft.MainAxisAlignment.END
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: Row.__init__() got an unexpected keyword argument 'padding'
+2026-06-08 20:37:17,821 [INFO] Session was garbage collected: AxhEelrQ6SklH7ih
+2026-06-08 20:37:33,850 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:37:33,853 [INFO] Starting up TCP server on localhost:50457
+2026-06-08 20:37:33,868 [INFO] Flet app has started...
+2026-06-08 20:37:33,871 [INFO] App URL: tcp://localhost:50457
+2026-06-08 20:37:33,871 [INFO] Starting Flet View app...
+2026-06-08 20:37:33,872 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:37:33,872 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:37:35,818 [INFO] App session started
+2026-06-08 20:39:30,434 [INFO] Session was garbage collected: 1ur9SVFxskTcEElU
+2026-06-08 20:39:45,864 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:39:45,867 [INFO] Starting up TCP server on localhost:51091
+2026-06-08 20:39:45,879 [INFO] Flet app has started...
+2026-06-08 20:39:45,882 [INFO] App URL: tcp://localhost:51091
+2026-06-08 20:39:45,883 [INFO] Starting Flet View app...
+2026-06-08 20:39:45,883 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:39:45,883 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:39:47,663 [INFO] App session started
+2026-06-08 20:39:55,056 [INFO] Session was garbage collected: VMPgbQH00K0E8jgc
+2026-06-08 20:40:10,252 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-08 20:40:10,255 [INFO] Starting up TCP server on localhost:57845
+2026-06-08 20:40:10,268 [INFO] Flet app has started...
+2026-06-08 20:40:10,270 [INFO] App URL: tcp://localhost:57845
+2026-06-08 20:40:10,270 [INFO] Starting Flet View app...
+2026-06-08 20:40:10,271 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:40:10,271 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-08 20:40:11,959 [INFO] App session started
+2026-06-08 20:40:16,797 [INFO] Session was garbage collected: upzzMziUv4uufMX9

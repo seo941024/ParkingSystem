@@ -1,0 +1,9 @@
+2026-06-12 08:54:15,519 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-12 08:54:15,523 [INFO] Starting up TCP server on localhost:49863
+2026-06-12 08:54:15,539 [INFO] Flet app has started...
+2026-06-12 08:54:15,542 [INFO] App URL: tcp://localhost:49863
+2026-06-12 08:54:15,542 [INFO] Starting Flet View app...
+2026-06-12 08:54:15,543 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-12 08:54:15,543 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-12 08:54:17,776 [INFO] App session started
+2026-06-12 08:59:21,242 [INFO] Session was garbage collected: fTACsZrZdY1FlP3F

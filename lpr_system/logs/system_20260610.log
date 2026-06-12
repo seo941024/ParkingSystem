@@ -1,0 +1,344 @@
+2026-06-10 15:40:19,563 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 15:40:19,565 [INFO] Starting up TCP server on localhost:50529
+2026-06-10 15:40:19,580 [INFO] Flet app has started...
+2026-06-10 15:40:19,583 [INFO] App URL: tcp://localhost:50529
+2026-06-10 15:40:19,583 [INFO] Starting Flet View app...
+2026-06-10 15:40:19,584 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 15:40:19,585 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 15:40:21,597 [INFO] App session started
+2026-06-10 19:23:43,475 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 19:23:43,477 [INFO] Starting up TCP server on localhost:54687
+2026-06-10 19:23:43,497 [INFO] Flet app has started...
+2026-06-10 19:23:43,501 [INFO] App URL: tcp://localhost:54687
+2026-06-10 19:23:43,502 [INFO] Starting Flet View app...
+2026-06-10 19:23:43,502 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:23:43,503 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:23:45,288 [INFO] App session started
+2026-06-10 19:29:17,524 [INFO] Session was garbage collected: SLT6P03c1VxIWi8Z
+2026-06-10 19:29:58,524 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 19:29:58,526 [INFO] Starting up TCP server on localhost:63559
+2026-06-10 19:29:58,535 [INFO] Flet app has started...
+2026-06-10 19:29:58,538 [INFO] App URL: tcp://localhost:63559
+2026-06-10 19:29:58,538 [INFO] Starting Flet View app...
+2026-06-10 19:29:58,538 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:29:58,538 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:30:00,122 [INFO] App session started
+2026-06-10 19:31:01,934 [INFO] 영상 처리 시작: test1.mp4 | 1007프레임
+2026-06-10 19:31:02,716 [INFO] [CAM_01] #5 | 22우6804 | NEW(WHITE) | conf=0.53 | UNKNOWN
+2026-06-10 19:31:11,920 [INFO] [CAM_01] #70 | 522우6804 | NEW(WHITE) | conf=0.68 | UNKNOWN
+2026-06-10 19:31:14,364 [INFO] [CAM_01] #80 | 93서9118 | NEW(WHITE) | conf=0.87 | UNKNOWN
+2026-06-10 19:31:16,388 [INFO] [CAM_01] #90 | 193서9118 | NEW(WHITE) | conf=0.55 | UNKNOWN
+2026-06-10 19:31:17,123 [INFO] [CAM_01] #95 | 22우6804 | NEW(WHITE) | conf=0.92 | UNKNOWN
+2026-06-10 19:31:18,100 [INFO] [CAM_01] #100 | 222우6804 | NEW(WHITE) | conf=0.60 | UNKNOWN
+2026-06-10 19:31:27,140 [INFO] [CAM_01] #150 | 193서9118 | NEW(WHITE) | conf=0.79 | UNKNOWN
+2026-06-10 19:31:35,155 [INFO] [CAM_01] #185 | 62수4718 | NEW(WHITE) | conf=0.99 | UNKNOWN
+2026-06-10 19:31:37,205 [INFO] [CAM_01] #195 | 193서9118 | NEW(WHITE) | conf=0.61 | UNKNOWN
+2026-06-10 19:31:45,555 [INFO] [CAM_01] #230 | 62수4718 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:31:48,505 [INFO] [CAM_01] #240 | 962수4718 | NEW(WHITE) | conf=0.63 | UNKNOWN
+2026-06-10 19:31:52,222 [INFO] 스트림 시작: 0 (CAM_01)
+2026-06-10 19:31:52,298 [ERROR] 스트림 열기 실패: 0 — 5초 후 재시도
+2026-06-10 19:31:57,207 [INFO] [CAM_01] #270 | 62수4718 | NEW(WHITE) | conf=0.99 | UNKNOWN
+2026-06-10 19:31:57,315 [INFO] 스트림 종료: 0
+2026-06-10 19:32:05,954 [INFO] [CAM_01] #300 | 53제4743 | NEW(WHITE) | conf=0.59 | UNKNOWN
+2026-06-10 19:32:09,260 [INFO] [CAM_01] #305 | 53저4743 | NEW(WHITE) | conf=0.62 | UNKNOWN
+2026-06-10 19:32:13,026 [INFO] [CAM_01] #315 | 53자4743 | NEW(WHITE) | conf=0.60 | UNKNOWN
+2026-06-10 19:32:19,658 [INFO] [CAM_01] #335 | 53저4743 | NEW(WHITE) | conf=0.67 | UNKNOWN
+2026-06-10 19:32:31,060 [INFO] [CAM_01] #365 | 53저4743 | NEW(WHITE) | conf=0.89 | UNKNOWN
+2026-06-10 19:32:36,394 [INFO] [CAM_01] #380 | 07도0580 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:32:41,000 [INFO] [CAM_01] #395 | 07토0580 | NEW(WHITE) | conf=0.62 | UNKNOWN
+2026-06-10 19:32:48,077 [INFO] [CAM_01] #415 | 07도0580 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:32:53,094 [INFO] [CAM_01] #425 | 153수2305 | NEW(WHITE) | conf=0.92 | UNKNOWN
+2026-06-10 19:32:54,511 [INFO] [CAM_01] #430 | 15수2305 | NEW(WHITE) | conf=0.99 | UNKNOWN
+2026-06-10 19:32:58,688 [INFO] [CAM_01] #440 | 07도0580 | NEW(WHITE) | conf=0.66 | UNKNOWN
+2026-06-10 19:32:59,022 [INFO] [CAM_01] #440 | 32어5901 | NEW(WHITE) | conf=0.79 | UNKNOWN
+2026-06-10 19:33:08,907 [INFO] [CAM_01] #460 | 07도0580 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:33:18,034 [INFO] [CAM_01] #485 | 48로5288 | NEW(WHITE) | conf=0.98 | UNKNOWN
+2026-06-10 19:33:20,158 [INFO] [CAM_01] #490 | 148로5288 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:33:30,627 [INFO] [CAM_01] #535 | 148로5288 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:33:33,445 [INFO] [CAM_01] #550 | 61러2429 | NEW(WHITE) | conf=0.73 | UNKNOWN
+2026-06-10 19:33:44,277 [INFO] [CAM_01] #585 | 61러2429 | NEW(WHITE) | conf=0.84 | UNKNOWN
+2026-06-10 19:33:51,878 [WARNING] [CAM_01] 이미 처리 중
+2026-06-10 19:33:57,379 [INFO] [CAM_01] #620 | 61러2429 | NEW(WHITE) | conf=0.93 | UNKNOWN
+2026-06-10 19:33:57,676 [WARNING] [CAM_01] 이미 처리 중
+2026-06-10 19:34:04,151 [INFO] [CAM_01] #640 | 61터2429 | NEW(WHITE) | conf=0.75 | UNKNOWN
+2026-06-10 19:34:11,509 [WARNING] [CAM_01] 이미 처리 중
+2026-06-10 19:34:12,416 [WARNING] [CAM_01] 이미 처리 중
+2026-06-10 19:34:15,751 [WARNING] [CAM_01] 이미 처리 중
+2026-06-10 19:34:16,549 [WARNING] [CAM_01] 이미 처리 중
+2026-06-10 19:34:16,749 [WARNING] [CAM_01] 이미 처리 중
+2026-06-10 19:34:16,921 [WARNING] [CAM_01] 이미 처리 중
+2026-06-10 19:34:37,492 [WARNING] [CAM_01] 이미 처리 중
+2026-06-10 19:34:39,060 [INFO] [CAM_01] #740 | 05머6935 | NEW(WHITE) | conf=0.87 | UNKNOWN
+2026-06-10 19:34:40,399 [INFO] Session was garbage collected: 14Nng69Xat4WNVCh
+2026-06-10 19:35:20,796 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 19:35:20,798 [INFO] Starting up TCP server on localhost:55570
+2026-06-10 19:35:20,816 [INFO] Flet app has started...
+2026-06-10 19:35:20,820 [INFO] App URL: tcp://localhost:55570
+2026-06-10 19:35:20,820 [INFO] Starting Flet View app...
+2026-06-10 19:35:20,821 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:35:20,821 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:35:22,651 [INFO] App session started
+2026-06-10 19:35:33,653 [INFO] 영상 처리 시작: test1.mp4 | 1007프레임
+2026-06-10 19:35:34,340 [INFO] [CAM_01] #5 | 22우6804 | NEW(WHITE) | conf=0.53 | UNKNOWN
+2026-06-10 19:35:46,071 [INFO] [CAM_01] #70 | 522우6804 | NEW(WHITE) | conf=0.68 | UNKNOWN
+2026-06-10 19:35:48,914 [INFO] [CAM_01] #80 | 93서9118 | NEW(WHITE) | conf=0.87 | UNKNOWN
+2026-06-10 19:35:51,064 [INFO] [CAM_01] #90 | 193서9118 | NEW(WHITE) | conf=0.55 | UNKNOWN
+2026-06-10 19:35:51,982 [INFO] [CAM_01] #95 | 22우6804 | NEW(WHITE) | conf=0.92 | UNKNOWN
+2026-06-10 19:35:53,202 [INFO] [CAM_01] #100 | 222우6804 | NEW(WHITE) | conf=0.60 | UNKNOWN
+2026-06-10 19:36:01,091 [INFO] [CAM_01] #135 | 193서9118 | NEW(WHITE) | conf=0.88 | UNKNOWN
+2026-06-10 19:36:11,608 [INFO] [CAM_01] #175 | 193서9118 | NEW(WHITE) | conf=0.97 | UNKNOWN
+2026-06-10 19:36:15,559 [INFO] [CAM_01] #185 | 62수4718 | NEW(WHITE) | conf=0.99 | UNKNOWN
+2026-06-10 19:36:22,022 [INFO] [CAM_01] #205 | 193서9118 | NEW(WHITE) | conf=0.93 | UNKNOWN
+2026-06-10 19:36:26,633 [INFO] [CAM_01] #220 | 62수4718 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:36:33,166 [INFO] [CAM_01] #240 | 962수4718 | NEW(WHITE) | conf=0.63 | UNKNOWN
+2026-06-10 19:36:42,310 [INFO] [CAM_01] #265 | 62수4718 | NEW(WHITE) | conf=0.80 | UNKNOWN
+2026-06-10 19:36:53,495 [INFO] [CAM_01] #300 | 53제4743 | NEW(WHITE) | conf=0.59 | UNKNOWN
+2026-06-10 19:36:55,799 [INFO] [CAM_01] #305 | 53저4743 | NEW(WHITE) | conf=0.62 | UNKNOWN
+2026-06-10 19:36:59,470 [INFO] [CAM_01] #315 | 53자4743 | NEW(WHITE) | conf=0.60 | UNKNOWN
+2026-06-10 19:37:06,622 [INFO] [CAM_01] #335 | 53저4743 | NEW(WHITE) | conf=0.67 | UNKNOWN
+2026-06-10 19:37:18,520 [INFO] [CAM_01] #365 | 53저4743 | NEW(WHITE) | conf=0.89 | UNKNOWN
+2026-06-10 19:37:24,189 [INFO] [CAM_01] #380 | 07도0580 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:37:29,022 [INFO] [CAM_01] #395 | 07토0580 | NEW(WHITE) | conf=0.62 | UNKNOWN
+2026-06-10 19:37:34,880 [INFO] [CAM_01] #410 | 07도0580 | NEW(WHITE) | conf=0.98 | UNKNOWN
+2026-06-10 19:37:43,662 [INFO] [CAM_01] #425 | 153수2305 | NEW(WHITE) | conf=0.92 | UNKNOWN
+2026-06-10 19:37:45,171 [INFO] [CAM_01] #430 | 15수2305 | NEW(WHITE) | conf=0.99 | UNKNOWN
+2026-06-10 19:37:46,824 [INFO] [CAM_01] #435 | 07도0580 | NEW(WHITE) | conf=0.67 | UNKNOWN
+2026-06-10 19:37:51,096 [INFO] [CAM_01] #440 | 32어5901 | NEW(WHITE) | conf=0.79 | UNKNOWN
+2026-06-10 19:37:57,098 [INFO] [CAM_01] #450 | 07도0580 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:38:07,735 [INFO] [CAM_01] #485 | 48로5288 | NEW(WHITE) | conf=0.98 | UNKNOWN
+2026-06-10 19:38:08,910 [INFO] [CAM_01] #490 | 148로5288 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 19:38:19,109 [INFO] [CAM_01] #550 | 148로5288 | NEW(WHITE) | conf=0.92 | UNKNOWN
+2026-06-10 19:38:19,211 [INFO] [CAM_01] #550 | 61러2429 | NEW(WHITE) | conf=0.73 | UNKNOWN
+2026-06-10 19:38:30,235 [INFO] [CAM_01] #595 | 61러2429 | NEW(WHITE) | conf=0.80 | UNKNOWN
+2026-06-10 19:38:40,535 [INFO] [CAM_01] #630 | 61러2429 | NEW(WHITE) | conf=0.65 | UNKNOWN
+2026-06-10 19:38:43,249 [INFO] [CAM_01] #640 | 61터2429 | NEW(WHITE) | conf=0.75 | UNKNOWN
+2026-06-10 19:39:14,688 [INFO] [CAM_01] #740 | 05머6935 | NEW(WHITE) | conf=0.87 | UNKNOWN
+2026-06-10 19:39:19,381 [INFO] [CAM_01] #755 | 505머6935 | NEW(WHITE) | conf=0.60 | UNKNOWN
+2026-06-10 19:39:27,287 [INFO] [CAM_01] #765 | 05머6935 | NEW(WHITE) | conf=0.75 | UNKNOWN
+2026-06-10 19:39:37,789 [INFO] [CAM_01] #800 | 05머6935 | NEW(WHITE) | conf=0.72 | UNKNOWN
+2026-06-10 19:40:28,243 [INFO] [CAM_01] #950 | 225가4944 | NEW(WHITE) | conf=0.63 | UNKNOWN
+2026-06-10 19:40:39,312 [INFO] [CAM_01] #970 | 225가4944 | NEW(WHITE) | conf=0.97 | UNKNOWN
+2026-06-10 19:40:51,061 [INFO] [CAM_01] #995 | 225가4944 | NEW(WHITE) | conf=0.74 | UNKNOWN
+2026-06-10 19:40:57,766 [INFO] 영상 처리 완료: 40건
+2026-06-10 19:43:46,286 [INFO] Session was garbage collected: 10yxVRRsZ38ASXLP
+2026-06-10 19:54:33,787 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 19:54:33,789 [INFO] Starting up TCP server on localhost:64270
+2026-06-10 19:54:33,806 [INFO] Flet app has started...
+2026-06-10 19:54:33,808 [INFO] App URL: tcp://localhost:64270
+2026-06-10 19:54:33,809 [INFO] Starting Flet View app...
+2026-06-10 19:54:33,809 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:54:33,810 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:54:35,664 [INFO] App session started
+2026-06-10 19:54:44,936 [ERROR] Unhandled error in 'on_change' handler
+Traceback (most recent call last):
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\messaging\session.py", line 334, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\controls\base_control.py", line 440, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 853, in nav_change
+    content_ref.current.controls = [builders[idx]()]
+                                    ~~~~~~~~~~~~~^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 689, in build_video
+    fit=ft.ImageFit.CONTAIN,
+        ^^^^^^^^^^^
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\__init__.py", line 1180, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+AttributeError: module 'flet' has no attribute 'ImageFit'
+2026-06-10 19:54:51,585 [INFO] Session was garbage collected: q0rkD99Qa9vGEgcm
+2026-06-10 19:56:08,526 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 19:56:08,527 [INFO] Starting up TCP server on localhost:60017
+2026-06-10 19:56:08,538 [INFO] Flet app has started...
+2026-06-10 19:56:08,541 [INFO] App URL: tcp://localhost:60017
+2026-06-10 19:56:08,541 [INFO] Starting Flet View app...
+2026-06-10 19:56:08,541 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:56:08,541 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:56:10,030 [INFO] App session started
+2026-06-10 19:56:19,031 [ERROR] Unhandled error in 'on_change' handler
+Traceback (most recent call last):
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\messaging\session.py", line 334, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\controls\base_control.py", line 440, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 941, in nav_change
+    content_ref.current.controls = [builders[idx]()]
+                                    ~~~~~~~~~~~~~^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 775, in build_video
+    preview_img = ft.Image(
+        width=640, height=360,
+        fit="contain",
+        border_radius=8,
+    )
+TypeError: Image.__init__() missing 1 required positional argument: 'src'
+2026-06-10 19:56:21,113 [INFO] Session was garbage collected: VJ5Z3gE2FnqISyxW
+2026-06-10 19:57:02,567 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 19:57:02,571 [INFO] Starting up TCP server on localhost:60240
+2026-06-10 19:57:02,589 [INFO] Flet app has started...
+2026-06-10 19:57:02,593 [INFO] App URL: tcp://localhost:60240
+2026-06-10 19:57:02,593 [INFO] Starting Flet View app...
+2026-06-10 19:57:02,594 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:57:02,595 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:57:04,400 [INFO] App session started
+2026-06-10 19:57:11,687 [ERROR] Unhandled error in 'on_change' handler
+Traceback (most recent call last):
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\messaging\session.py", line 334, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\controls\base_control.py", line 440, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 941, in nav_change
+    content_ref.current.controls = [builders[idx]()]
+                                    ~~~~~~~~~~~~~^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 775, in build_video
+    preview_img = ft.Image(
+        width=640, height=360,
+        fit="contain",
+        border_radius=8,
+    )
+TypeError: Image.__init__() missing 1 required positional argument: 'src'
+2026-06-10 19:57:13,549 [INFO] Session was garbage collected: 1yKtihiNJ8fOkFDw
+2026-06-10 19:57:29,998 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 19:57:30,001 [INFO] Starting up TCP server on localhost:64004
+2026-06-10 19:57:30,017 [INFO] Flet app has started...
+2026-06-10 19:57:30,020 [INFO] App URL: tcp://localhost:64004
+2026-06-10 19:57:30,020 [INFO] Starting Flet View app...
+2026-06-10 19:57:30,020 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:57:30,020 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:57:31,689 [INFO] App session started
+2026-06-10 19:57:36,295 [ERROR] Unhandled error in 'on_change' handler
+Traceback (most recent call last):
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\messaging\session.py", line 334, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\controls\base_control.py", line 440, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 941, in nav_change
+    content_ref.current.controls = [builders[idx]()]
+                                    ~~~~~~~~~~~~~^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 775, in build_video
+    preview_img = ft.Image(
+        width=640, height=360,
+        fit="contain",
+        border_radius=8,
+    )
+TypeError: Image.__init__() missing 1 required positional argument: 'src'
+2026-06-10 19:57:40,843 [INFO] Session was garbage collected: 5SkNiiBjsiprWLo8
+2026-06-10 19:57:54,810 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 19:57:54,812 [INFO] Starting up TCP server on localhost:54957
+2026-06-10 19:57:54,820 [INFO] Flet app has started...
+2026-06-10 19:57:54,823 [INFO] App URL: tcp://localhost:54957
+2026-06-10 19:57:54,823 [INFO] Starting Flet View app...
+2026-06-10 19:57:54,823 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:57:54,823 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:57:56,057 [INFO] App session started
+2026-06-10 19:58:00,927 [ERROR] Unhandled error in 'on_change' handler
+Traceback (most recent call last):
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\messaging\session.py", line 334, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\controls\base_control.py", line 440, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 941, in nav_change
+    content_ref.current.controls = [builders[idx]()]
+                                    ~~~~~~~~~~~~~^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 775, in build_video
+    preview_img = ft.Image(
+        width=640, height=360,
+        fit="contain",
+        border_radius=8,
+    )
+TypeError: Image.__init__() missing 1 required positional argument: 'src'
+2026-06-10 19:58:02,721 [INFO] Session was garbage collected: vTixSvhtsG3NVu1O
+2026-06-10 19:58:34,179 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 19:58:34,180 [INFO] Starting up TCP server on localhost:63626
+2026-06-10 19:58:34,196 [INFO] Flet app has started...
+2026-06-10 19:58:34,198 [INFO] App URL: tcp://localhost:63626
+2026-06-10 19:58:34,199 [INFO] Starting Flet View app...
+2026-06-10 19:58:34,199 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:58:34,199 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 19:58:35,798 [INFO] App session started
+2026-06-10 19:58:42,062 [ERROR] Unhandled error in 'on_change' handler
+Traceback (most recent call last):
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\messaging\session.py", line 334, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet\controls\base_control.py", line 440, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 942, in nav_change
+    content_ref.current.controls = [builders[idx]()]
+                                    ~~~~~~~~~~~~~^^
+  File "c:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\app.py", line 791, in build_video
+    alignment=ft.alignment.center,
+              ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'flet.controls.alignment' has no attribute 'center'
+2026-06-10 19:58:49,088 [INFO] Session was garbage collected: 1cNeTEOKdMkW6J0P
+2026-06-10 20:04:45,793 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 20:04:45,795 [INFO] Starting up TCP server on localhost:61760
+2026-06-10 20:04:45,812 [INFO] Flet app has started...
+2026-06-10 20:04:45,815 [INFO] App URL: tcp://localhost:61760
+2026-06-10 20:04:45,815 [INFO] Starting Flet View app...
+2026-06-10 20:04:45,816 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 20:04:45,816 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 20:04:47,300 [INFO] App session started
+2026-06-10 20:07:08,201 [INFO] Session was garbage collected: MI8IYn5QlNmJBWpF
+2026-06-10 20:07:42,326 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 20:07:42,329 [INFO] Starting up TCP server on localhost:50275
+2026-06-10 20:07:42,346 [INFO] Flet app has started...
+2026-06-10 20:07:42,351 [INFO] App URL: tcp://localhost:50275
+2026-06-10 20:07:42,352 [INFO] Starting Flet View app...
+2026-06-10 20:07:42,352 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 20:07:42,353 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 20:07:43,878 [INFO] App session started
+2026-06-10 20:09:27,274 [INFO] Session was garbage collected: oSf7YbL3AXNGTIjL
+2026-06-10 20:09:43,386 [INFO] Assets path configured: C:\Users\AISW_203_106\Desktop\2601340028\CapturePlate\lpr_system\assets
+2026-06-10 20:09:43,387 [INFO] Starting up TCP server on localhost:52291
+2026-06-10 20:09:43,397 [INFO] Flet app has started...
+2026-06-10 20:09:43,399 [INFO] App URL: tcp://localhost:52291
+2026-06-10 20:09:43,399 [INFO] Starting Flet View app...
+2026-06-10 20:09:43,400 [INFO] Looking for Flet executable at: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 20:09:43,400 [INFO] Flet View found in: C:\Users\AISW_203_106\AppData\Local\Programs\Python\Python314\Lib\site-packages\flet_desktop\app\flet\flet.exe
+2026-06-10 20:09:44,913 [INFO] App session started
+2026-06-10 20:13:00,117 [INFO] 영상 처리 시작: test1.mp4 | 1007프레임
+2026-06-10 20:13:02,301 [INFO] [CAM_01] #5 | 22우6804 | NEW(WHITE) | conf=0.53 | UNKNOWN
+2026-06-10 20:13:04,912 [INFO] [CAM_01] #10 | 22우6804 | NEW(WHITE) | conf=0.66 | UNKNOWN
+2026-06-10 20:13:06,871 [INFO] [CAM_01] #15 | 22우6804 | NEW(WHITE) | conf=0.51 | UNKNOWN
+2026-06-10 20:13:08,808 [INFO] [CAM_01] #20 | 22우6804 | NEW(WHITE) | conf=0.72 | UNKNOWN
+2026-06-10 20:13:13,309 [INFO] [CAM_01] #30 | 22우6804 | NEW(WHITE) | conf=0.53 | UNKNOWN
+2026-06-10 20:13:20,162 [INFO] [CAM_01] #40 | 22우6804 | NEW(WHITE) | conf=0.71 | UNKNOWN
+2026-06-10 20:13:22,771 [INFO] [CAM_01] #45 | 22우6804 | NEW(WHITE) | conf=0.52 | UNKNOWN
+2026-06-10 20:13:26,193 [INFO] [CAM_01] #50 | 22우6804 | NEW(WHITE) | conf=0.66 | UNKNOWN
+2026-06-10 20:13:30,098 [INFO] [CAM_01] #55 | 22우6804 | NEW(WHITE) | conf=0.63 | UNKNOWN
+2026-06-10 20:13:40,914 [INFO] [CAM_01] #70 | 522우6804 | NEW(WHITE) | conf=0.68 | UNKNOWN
+2026-06-10 20:13:52,321 [INFO] [CAM_01] #80 | 93서9118 | NEW(WHITE) | conf=0.87 | UNKNOWN
+2026-06-10 20:14:03,060 [INFO] [CAM_01] #90 | 193서9118 | NEW(WHITE) | conf=0.55 | UNKNOWN
+2026-06-10 20:14:05,888 [INFO] [CAM_01] #95 | 22우6804 | NEW(WHITE) | conf=0.92 | UNKNOWN
+2026-06-10 20:14:07,301 [INFO] [CAM_01] #100 | 222우6804 | NEW(WHITE) | conf=0.60 | UNKNOWN
+2026-06-10 20:14:12,458 [INFO] [CAM_01] #120 | 93서9118 | NEW(WHITE) | conf=0.92 | UNKNOWN
+2026-06-10 20:14:16,343 [INFO] [CAM_01] #135 | 193서9118 | NEW(WHITE) | conf=0.88 | UNKNOWN
+2026-06-10 20:14:17,489 [INFO] [CAM_01] #140 | 193서9118 | NEW(WHITE) | conf=0.93 | UNKNOWN
+2026-06-10 20:14:20,197 [INFO] [CAM_01] #150 | 193서9118 | NEW(WHITE) | conf=0.79 | UNKNOWN
+2026-06-10 20:14:21,527 [INFO] [CAM_01] #155 | 193서9118 | NEW(WHITE) | conf=0.96 | UNKNOWN
+2026-06-10 20:14:23,224 [INFO] [CAM_01] #160 | 193서9118 | NEW(WHITE) | conf=0.79 | UNKNOWN
+2026-06-10 20:14:24,737 [INFO] [CAM_01] #165 | 193서9118 | NEW(WHITE) | conf=0.74 | UNKNOWN
+2026-06-10 20:14:26,663 [INFO] [CAM_01] #170 | 193서9118 | NEW(WHITE) | conf=0.72 | UNKNOWN
+2026-06-10 20:14:28,678 [INFO] [CAM_01] #175 | 193서9118 | NEW(WHITE) | conf=0.97 | UNKNOWN
+2026-06-10 20:14:30,815 [INFO] [CAM_01] #180 | 193서9118 | NEW(WHITE) | conf=0.99 | UNKNOWN
+2026-06-10 20:14:32,851 [INFO] [CAM_01] #185 | 193서9118 | NEW(WHITE) | conf=0.96 | UNKNOWN
+2026-06-10 20:14:33,294 [INFO] [CAM_01] #185 | 62수4718 | NEW(WHITE) | conf=0.99 | UNKNOWN
+2026-06-10 20:14:34,708 [INFO] [CAM_01] #190 | 193서9118 | NEW(WHITE) | conf=0.77 | UNKNOWN
+2026-06-10 20:14:36,677 [INFO] [CAM_01] #195 | 193서9118 | NEW(WHITE) | conf=0.61 | UNKNOWN
+2026-06-10 20:14:37,058 [INFO] [CAM_01] #195 | 62수4718 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 20:14:39,336 [INFO] [CAM_01] #200 | 193서9118 | NEW(WHITE) | conf=0.98 | UNKNOWN
+2026-06-10 20:14:39,709 [INFO] [CAM_01] #200 | 62수4718 | NEW(WHITE) | conf=0.74 | UNKNOWN
+2026-06-10 20:14:41,461 [INFO] [CAM_01] #205 | 193서9118 | NEW(WHITE) | conf=0.93 | UNKNOWN
+2026-06-10 20:14:41,828 [INFO] [CAM_01] #205 | 62수4718 | NEW(WHITE) | conf=0.57 | UNKNOWN
+2026-06-10 20:14:43,701 [INFO] [CAM_01] #210 | 193서9118 | NEW(WHITE) | conf=0.96 | UNKNOWN
+2026-06-10 20:14:44,137 [INFO] [CAM_01] #210 | 62수4718 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 20:14:45,758 [INFO] [CAM_01] #215 | 193서9118 | NEW(WHITE) | conf=0.98 | UNKNOWN
+2026-06-10 20:14:46,144 [INFO] [CAM_01] #215 | 62수4718 | NEW(WHITE) | conf=0.90 | UNKNOWN
+2026-06-10 20:14:48,042 [INFO] [CAM_01] #220 | 62수4718 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 20:14:50,347 [INFO] [CAM_01] #225 | 62수4718 | NEW(WHITE) | conf=0.65 | UNKNOWN
+2026-06-10 20:14:52,266 [INFO] [CAM_01] #230 | 62수4718 | NEW(WHITE) | conf=1.00 | UNKNOWN
+2026-06-10 20:14:58,507 [INFO] 영상 처리 완료: 40건
+2026-06-10 20:18:37,915 [INFO] Session was garbage collected: 1ptnAt5FR7TdN2wS

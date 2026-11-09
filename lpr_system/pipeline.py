@@ -276,7 +276,8 @@ def process_frame(
             if SAVE_IMAGES and final_roi is not None:
                 safe_ts    = timestamp.replace(":", "-").replace(" ", "_")
                 image_path = os.path.join(IMAGE_DIR, f"{final_text}_{safe_ts}.jpg")
-                cv2.imwrite(image_path, final_roi)
+                # cv2.imwrite는 Windows에서 한글 파일명을 깨뜨려 DB 경로와 실제 파일명이 달라짐
+                cv2.imencode(".jpg", final_roi)[1].tofile(image_path)
 
             insert_plate_log(
                 conn, final_text, plate_color, plate_type, final_conf,
@@ -479,3 +480,59 @@ def start_camera_thread(
     )
     t.start()
     return t, stop_event
+
+
+# ══════════════════════════════════════════════════════════════
+#  명령행 실행
+#    python pipeline.py 영상.mp4 [--camera CAM_01] [--gpu] [--show]
+#    python pipeline.py 영상폴더/
+# ══════════════════════════════════════════════════════════════
+VIDEO_EXTS = (".mp4", ".avi", ".mov", ".mkv")
+
+
+def _main() -> None:
+    import argparse
+    from database import init_db
+    from ocr_engine import init_reader
+
+    ap = argparse.ArgumentParser(description="영상 파일(또는 폴더)의 번호판을 인식해 parking.db에 기록")
+    ap.add_argument("path", help="영상 파일 또는 영상 폴더 경로")
+    ap.add_argument("--camera", default="CAM_01", help="카메라 ID (기본: CAM_01)")
+    ap.add_argument("--gpu", action="store_true", help="EasyOCR GPU 가속")
+    ap.add_argument("--show", action="store_true", help="인식된 번호판 이미지를 창으로 표시")
+    args = ap.parse_args()
+
+    if os.path.isdir(args.path):
+        videos = sorted(os.path.join(args.path, f) for f in os.listdir(args.path)
+                        if f.lower().endswith(VIDEO_EXTS))
+    else:
+        videos = [args.path]
+    if not videos:
+        print(f"영상 파일 없음: {args.path}")
+        return
+
+    init_db()
+    init_reader(gpu=args.gpu)
+
+    def on_detected(r: dict) -> None:
+        # 저장된 번호판 이미지(한글 파일명)를 읽어 창에 표시
+        if not (args.show and r.get("image_path") and os.path.exists(r["image_path"])):
+            return
+        img = cv2.imdecode(np.fromfile(r["image_path"], np.uint8), cv2.IMREAD_COLOR)
+        if img is not None:
+            cv2.imshow("LPR result", img)
+            cv2.waitKey(1)
+
+    total = 0
+    for path in videos:
+        n = process_video(path, camera_id=args.camera, on_detected=on_detected)
+        print(f"{os.path.basename(path)}: {n}건 인식")
+        total += n
+    if len(videos) > 1:
+        print(f"전체 {len(videos)}개 영상: {total}건 인식")
+    if args.show:
+        cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    _main()

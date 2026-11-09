@@ -67,9 +67,9 @@ def plate_badge(plate_type: str) -> ft.Container:
     )
 
 
-def make_field(label, hint="", width=None, expand=False) -> ft.TextField:
+def make_field(label, hint="", width=None, expand=False, value="") -> ft.TextField:
     return ft.TextField(
-        label=label, hint_text=hint,
+        label=label, value=value, hint_text=hint,
         width=width, expand=expand,
         border_color=C_BORDER, focused_border_color=C_ACCENT,
         color=C_TEXT, label_style=ft.TextStyle(color=C_MUTED),
@@ -1120,7 +1120,7 @@ def main(page: ft.Page):
     # ── 통계 차트 ─────────────────────────────────────────────
     def build_stats():
         current_idx["v"] = 7
-        date_tf   = make_field("날짜", datetime.now().strftime("%Y-%m-%d"), width=160)
+        date_tf   = make_field("날짜", value=datetime.now().strftime("%Y-%m-%d"), width=160)
         chart_col = ft.Column(spacing=12, scroll=ft.ScrollMode.AUTO, expand=True)
 
         def draw_bar(data: list, label_key: str, value_keys: list,
@@ -1253,8 +1253,8 @@ def main(page: ft.Page):
     def build_export():
         current_idx["v"] = 8
         today = datetime.now().strftime("%Y-%m-%d")
-        start_tf = make_field("시작 날짜", today, width=160)
-        end_tf   = make_field("종료 날짜", today, width=160)
+        start_tf = make_field("시작 날짜", value=today, width=160)
+        end_tf   = make_field("종료 날짜", value=today, width=160)
         status_t = ft.Text("", size=13, color=C_GREEN)
 
         def do_export_logs(e):
@@ -1321,9 +1321,9 @@ def main(page: ft.Page):
             ),
             ft.Container(
                 content=ft.Column([
-                    ft.Text("저장 위치", size=13, color=C_MUTED),
+                    ft.Text("저장 위치", size=13, color="#CBD5E1"),
                     ft.Text("lpr_system/exports/ 폴더",
-                            size=13, color=C_TEXT),
+                            size=13, color="white"),
                 ], spacing=6),
                 bgcolor=C_SURF2, border_radius=8,
                 padding=ft.padding.all(12),
@@ -1339,12 +1339,12 @@ def main(page: ft.Page):
         result_col = ft.Column(spacing=8, scroll=ft.ScrollMode.AUTO, expand=True)
 
         # 요금 설정 필드
-        free_tf  = make_field("무료 시간(분)",   str(fee_cfg["free_min"]),  width=110)
-        base_f   = make_field("기본 요금(원)",   str(fee_cfg["base_fee"]),  width=110)
-        basem_f  = make_field("기본 시간(분)",   str(fee_cfg["base_min"]),  width=110)
-        unit_f   = make_field("추가 단위(원)",   str(fee_cfg["unit_fee"]),  width=110)
-        unitm_f  = make_field("추가 시간(분)",   str(fee_cfg["unit_min"]),  width=110)
-        max_f    = make_field("1일 최대(원)",    str(fee_cfg["daily_max"]), width=110)
+        free_tf  = make_field("무료 시간(분)",   value=str(fee_cfg["free_min"]),  width=110)
+        base_f   = make_field("기본 요금(원)",   value=str(fee_cfg["base_fee"]),  width=110)
+        basem_f  = make_field("기본 시간(분)",   value=str(fee_cfg["base_min"]),  width=110)
+        unit_f   = make_field("추가 단위(원)",   value=str(fee_cfg["unit_fee"]),  width=110)
+        unitm_f  = make_field("추가 시간(분)",   value=str(fee_cfg["unit_min"]),  width=110)
+        max_f    = make_field("1일 최대(원)",    value=str(fee_cfg["daily_max"]), width=110)
         cfg_st   = ft.Text("", size=12, color=C_GREEN)
 
         def do_save_cfg(e):

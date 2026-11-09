@@ -23,24 +23,30 @@ OpenCV + EasyOCR + SQLite 기반 한국 번호판 인식 파이프라인
 
 ```
 lpr_system/
+├── app.py           — Flet 데스크톱 화면 · 메뉴 10개
 ├── database.py      — SQLite DB 연결 · CRUD · 화이트리스트
 ├── detector.py      — 번호판 검출 · 색상 분류 · 전처리
 ├── ocr_engine.py    — EasyOCR 래퍼 · 정규식 검증
 ├── pipeline.py      — 전체 파이프라인 (영상 처리 진입점)
-├── query_tool.py    — CLI 조회 · 화이트리스트 관리
+├── alert_system.py  — 블랙리스트 차량 경보음 · 화면 팝업 알림
+├── excel_export.py  — 기간별 인식 · 입출차 기록 엑셀 저장
+├── parking_fee.py   — 입출차 시각 기반 주차 요금 계산
+├── query_tool.py    — CLI 조회 · 화이트리스트 · 블랙리스트 관리
 ├── demo.py          — EasyOCR 없이 동작을 확인하는 데모
 ├── requirements.txt — 의존 패키지 목록
-├── samples/         — 테스트용 영상 파일 보관 위치
-├── plate_images/    — 인식된 번호판 이미지 자동 저장
+├── assets/fonts/    — Flet 화면 글꼴
+├── plate_images/    — 인식된 번호판 이미지 자동 저장, 실행 시 생성
 └── logs/            — 날짜별 시스템 로그
 ```
+
+영상 파일은 저장소에 포함하지 않으므로 아래 명령의 영상 경로는 직접 준비한 파일로 지정.
 
 ---
 
 ## 설치
 
 ```bash
-pip install -r requirements.txt
+pip install -r lpr_system/requirements.txt
 ```
 
 > GPU 가속이 필요하면 `requirements.txt` 안의 torch 줄을 CUDA 버전으로 교체하세요.
@@ -58,24 +64,32 @@ python demo.py
 
 합성 번호판 이미지를 생성해 DB 저장·조회 전 과정을 확인합니다.
 
+빈 DB에서 `python demo.py`를 실행한 결과.
+
+<img src="lpr_system/screenshots/demo.png" width="480">
+
 ### 2) 영상 파일 처리
 
 ```bash
-python pipeline.py samples/parking.mp4
-python pipeline.py samples/parking.mp4 --camera CAM_01 --gpu --show
+python pipeline.py parking.mp4
+python pipeline.py parking.mp4 --camera CAM_01 --gpu --show
 ```
 
 | 옵션 | 설명 |
 |------|------|
 | `--camera` | 카메라 ID (기본: CAM_01) |
 | `--gpu` | EasyOCR GPU 가속 |
-| `--show` | 결과 창 표시 (헤드리스 서버에서는 사용 X) |
+| `--show` | 인식된 번호판 이미지를 창으로 표시 (헤드리스 서버에서는 사용 X) |
+
+<img src="lpr_system/screenshots/pipeline_help.png" width="480">
 
 ### 3) 폴더 일괄 처리
 
 ```bash
-python pipeline.py samples/
+python pipeline.py videos/
 ```
+
+폴더 안의 `.mp4`, `.avi`, `.mov`, `.mkv` 파일을 이름 순서로 처리하고 영상별 인식 건수 출력.
 
 ### 4) DB 조회 / 관리
 
@@ -95,9 +109,20 @@ python query_tool.py stats
 # 화이트리스트 등록
 python query_tool.py add 123가4567 홍길동 "검정 소나타"
 
+# 블랙리스트 등록 · 해제 · 전체 조회
+python query_tool.py block 999다8888 "도주 차량"
+python query_tool.py unblock 999다8888
+python query_tool.py blocklist
+
 # 90일 이전 기록 자동 삭제
 python query_tool.py purge 90
 ```
+
+`demo.py`를 실행한 직후의 DB에서 조회·관리 명령을 차례로 실행한 결과. `123가4567`은 데모가 미리 등록해 두어 이미 등록된 번호판으로 표시. `purge`는 확인 질문에 yes를 입력했고, 인식 기록 `plate_logs`에서 90일보다 오래된 행만 삭제.
+
+| 조회 `all`, `plate`, `date`, `stats` | 관리 `add`, `block`, `blocklist`, `unblock`, `purge` |
+|---|---|
+| <img src="lpr_system/screenshots/query_tool_view.png" width="420"> | <img src="lpr_system/screenshots/query_tool_manage.png" width="420"> |
 
 ---
 
@@ -117,15 +142,15 @@ python query_tool.py purge 90
 
 | 상수 | 기본값 | 설명 |
 |------|--------|------|
-| `PROCESS_EVERY_N` | 5 | N 프레임마다 1회 처리 (높을수록 빠름) |
-| `COOLDOWN_SEC` | 10 | 동일 번호판 재저장 방지 간격 (초) |
+| `PROCESS_EVERY_N` | 3 | N 프레임마다 1회 처리 (높을수록 빠름) |
+| `COOLDOWN_SEC` | 30 | 동일 번호판 재저장 방지 간격 (초) |
 | `SAVE_IMAGES` | True | 번호판 이미지 파일 저장 여부 |
 
 ### detector.py
 
 | 상수 | 기본값 | 설명 |
 |------|--------|------|
-| `MIN_AREA` / `MAX_AREA` | 800 / 40000 | Contour 면적 필터 |
+| `MIN_AREA` / `MAX_AREA` | 800 / 45000 | Contour 면적 필터 |
 | `MIN_ASPECT` / `MAX_ASPECT` | 1.8 / 6.5 | 가로:세로 비율 필터 |
 | `NORM_WIDTH` / `NORM_HEIGHT` | 320 / 80 | OCR 정규화 크기 |
 
@@ -133,7 +158,7 @@ python query_tool.py purge 90
 
 | 상수 | 기본값 | 설명 |
 |------|--------|------|
-| `CONFIDENCE_THRESHOLD` | 0.55 | OCR 신뢰도 최소값 |
+| `CONFIDENCE_THRESHOLD` | 0.50 | OCR 신뢰도 최소값 |
 
 ---
 
@@ -162,7 +187,10 @@ python query_tool.py purge 90
 | plate_text | TEXT UNIQUE | 등록 번호판 |
 | owner_name | TEXT | 차량 소유자 |
 | vehicle_desc | TEXT | 차량 설명 |
+| phone | TEXT | 연락처 |
+| memo | TEXT | 메모 |
 | registered_at | TEXT | 등록 일시 |
+| expires_at | TEXT | 등록 만료일 |
 
 ---
 
@@ -196,7 +224,7 @@ EasyOCR 인식
    신뢰도 필터링 → 정규식 검증
    │
    ▼
-중복 방지 (10초 쿨다운)
+중복 방지 (30초 쿨다운)
    │
    ▼
 SQLite DB 저장 + 이미지 파일 저장

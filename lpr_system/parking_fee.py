@@ -9,6 +9,7 @@ parking_fee.py — 입출차 시간 기반 주차 요금 계산
 """
 
 from datetime import datetime
+from typing import Optional
 
 
 # ── 기본 요금표 (런타임에서 변경 가능) ────────────────────────

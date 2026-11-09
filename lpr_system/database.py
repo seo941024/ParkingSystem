@@ -49,6 +49,11 @@ def init_db() -> None:
             expires_at    TEXT    DEFAULT ''
         )
     """)
+    # 이전 버전에서 만든 DB의 whitelist에 없는 컬럼 추가 (add_whitelist가 사용)
+    wl_cols = {r[1] for r in c.execute("PRAGMA table_info(whitelist)")}
+    for col in ("phone", "memo", "expires_at"):
+        if col not in wl_cols:
+            c.execute(f"ALTER TABLE whitelist ADD COLUMN {col} TEXT DEFAULT ''")
 
     c.execute("""
         CREATE TABLE IF NOT EXISTS blacklist (
@@ -202,6 +207,32 @@ def query_today_count(conn) -> int:
         "SELECT COUNT(*) FROM plate_logs WHERE timestamp LIKE ?",
         (f"{today}%",)
     ).fetchone()[0]
+
+
+def query_statistics(conn):
+    """번호판 타입·색상별 인식 건수 (demo.py, query_tool.py stats)"""
+    c = conn.cursor()
+    c.execute("""
+        SELECT plate_type, plate_color, COUNT(*) AS cnt
+        FROM plate_logs
+        GROUP BY plate_type, plate_color
+        ORDER BY cnt DESC
+    """)
+    return c.fetchall()
+
+
+def purge_old_records(conn, days: int = 90) -> int:
+    """days일보다 오래된 인식 기록(plate_logs) 삭제. 삭제 건수 반환."""
+    try:
+        c = conn.execute(
+            "DELETE FROM plate_logs WHERE timestamp < datetime('now', 'localtime', ?)",
+            (f"-{int(days)} days",),
+        )
+        conn.commit()
+        return c.rowcount
+    except sqlite3.Error:
+        conn.rollback()
+        return 0
 
 
 

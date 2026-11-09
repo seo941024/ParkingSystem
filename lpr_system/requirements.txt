@@ -1,0 +1,17 @@
+# 한국 번호판 인식 시스템 — 의존 패키지
+# 설치: 저장소 루트에서 pip install -r lpr_system/requirements.txt
+# 확인한 실행 환경: Python 3.14
+
+# 영상 처리 · 번호판 검출
+opencv-python>=4.8
+numpy>=1.24
+
+# OCR (EasyOCR가 torch·torchvision을 함께 설치)
+easyocr>=1.7
+torch>=2.0                 # GPU 가속이 필요하면 CUDA 버전 torch로 교체
+
+# 데스크톱 화면 (app.py) — 0.83에서 padding.all() 등이 제거될 예정이라 확인한 버전으로 고정
+flet[desktop]==0.82.2
+
+# 엑셀 내보내기 (excel_export.py)
+openpyxl>=3.1

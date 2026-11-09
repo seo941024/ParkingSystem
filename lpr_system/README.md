@@ -7,7 +7,7 @@ OpenCV 번호판 검출, EasyOCR 문자 인식, SQLite 기록 파이프라인에
 | 파일 | 역할 |
 |---|---|
 | `app.py` | Flet 화면 진입점. 대시보드, 조회, 화이트, 블랙, 카메라, 영상처리, 인식설정, 통계, 엑셀, 요금 10개 메뉴 |
-| `pipeline.py` | 프레임 단위 인식 파이프라인. 투표 확정, 편집거리 중복 제거, DB·이미지 저장, 입출차 기록. 영상 파일 처리 `process_video`, 카메라 스트림 스레드 `start_camera_thread` |
+| `pipeline.py` | 프레임 단위 인식 파이프라인. 투표 확정, 편집거리 중복 제거, DB·이미지 저장, 입출차 기록. 영상 파일 처리 `process_video`, 카메라 스트림 스레드 `start_camera_thread`, 영상 파일·폴더 명령행 실행 |
 | `detector.py` | MOG2 모션 감지, 윤곽선 기반 번호판 후보 검출, HSV 색상 분류, 원근 보정과 OCR 전처리 |
 | `ocr_engine.py` | EasyOCR 한국어·영어 Reader 초기화, 숫자·한글 허용 문자 인식, 번호판 정규식 검증 |
 | `database.py` | `parking.db` 연결과 테이블 생성, 인식 기록·화이트리스트·블랙리스트·입출차·카메라 설정 CRUD, 기간·시간대별 조회 |
@@ -15,6 +15,8 @@ OpenCV 번호판 검출, EasyOCR 문자 인식, SQLite 기록 파이프라인에
 | `parking_fee.py` | 입차 시각부터 현재 또는 출차 시각까지의 주차 요금 계산 |
 | `excel_export.py` | 기간별 인식 기록·입출차 기록을 `exports/` 폴더에 `.xlsx`로 저장 |
 | `demo.py` | EasyOCR 없이 합성 번호판 이미지로 색상 분류, 전처리, DB 저장 확인 |
+| `query_tool.py` | 인식 기록 조회·통계, 화이트리스트·블랙리스트 관리, 오래된 기록 삭제 명령줄 도구 |
+| `requirements.txt` | 의존 패키지 목록 |
 | `assets/fonts/MyFont.ttf` | Flet 화면 기본 글꼴 |
 | `parking.db` | 실행하며 쌓인 SQLite DB 파일 |
 | `logs/` | `pipeline.py`가 날짜별로 남기는 `system_YYYYMMDD.log` |
@@ -26,7 +28,7 @@ OpenCV 번호판 검출, EasyOCR 문자 인식, SQLite 기록 파이프라인에
 | 테이블 | 내용 |
 |---|---|
 | `plate_logs` | 번호판 인식 기록 |
-| `whitelist` | 등록 차량. 루트 README 컬럼에 `phone`, `memo`, `expires_at` 추가 |
+| `whitelist` | 등록 차량. 소유자, 차량 설명, 연락처, 메모, 등록일, 만료일. 이전 버전 DB에 `phone`, `memo`, `expires_at` 컬럼이 없으면 `init_db`가 추가 |
 | `blacklist` | 차단 차량 번호와 사유 |
 | `entry_exit_log` | 번호판별 `ENTRY`·`EXIT` 이벤트, 카메라, 시각, 이미지 경로 |
 | `camera_config` | 카메라 ID, 이름, 위치, 방향, 영상 소스, 사용 여부. 첫 실행 시 `CAM_01` 정문 카메라 기본 등록 |
@@ -59,15 +61,14 @@ OpenCV 번호판 검출, EasyOCR 문자 인식, SQLite 기록 파이프라인에
 ## 실행 방법
 
 ```bash
-pip install opencv-python numpy easyocr flet openpyxl
 cd lpr_system
+pip install -r requirements.txt
 python app.py
 ```
 
 - 화면 시작 시 DB 초기화와 EasyOCR 모델 로딩을 함께 진행. 첫 실행에서는 EasyOCR 모델 내려받기 시간 필요.
-- 루트 README의 `query_tool.py`, `requirements.txt`, `samples/`와 `pipeline.py` 명령행 실행은 현재 폴더에 없는 구성. 영상 파일 처리는 영상처리 메뉴에서 진행.
-- `demo.py`는 `database.py`에 없는 `query_statistics`를 불러오므로 현재 그대로는 실행 불가.
-- `parking_fee.py`는 `Optional`을 import하지 않아 Python 3.13 이하에서는 불러오기 단계에서 오류. 로그에 남은 실행 환경은 Python 3.14.
+- 명령행 실행 `python demo.py`, `python pipeline.py 영상.mp4`, `python query_tool.py stats`의 사용법과 실행 결과는 [루트 README](../README.md#실행) 참고.
+- `flet`은 0.83에서 `padding.all()` 등이 제거될 예정이라 `requirements.txt`에 확인한 버전 0.82.2로 고정.
 
 ## 실행 화면
 
@@ -89,4 +90,4 @@ Python 3.14에서 `app.py`를 DB 파일이 없는 첫 실행 상태로 띄워 �
 | **요금** | |
 | <img src="screenshots/app_fee.png" width="420"> | |
 
-요금 메뉴의 요금 설정 칸 6개는 기본값이 `make_field`의 힌트 문구 자리로 전달되어 빈 칸으로 표시.
+요금 메뉴의 요금 설정 칸 6개에는 기본값 10분, 1,000원, 30분, 500원, 10분, 15,000원, 통계·엑셀 메뉴의 날짜 칸에는 오늘 날짜가 입력된 상태.

@@ -2,6 +2,10 @@
 
 OpenCV + EasyOCR + SQLite 기반 한국 번호판 인식 파이프라인
 
+<img src="lpr_system/screenshots/app_dashboard.png" width="800">
+
+*`lpr_system/app.py` Flet 화면을 DB가 없는 첫 실행 상태로 띄운 대시보드. 메뉴별 화면은 [`lpr_system/README.md`](lpr_system/README.md) 참고.*
+
 ---
 
 ## 지원 번호판

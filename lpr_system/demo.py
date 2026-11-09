@@ -109,7 +109,7 @@ def run_demo():
         # 이미지 저장
         ts_str     = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
         img_path   = f"plate_images/{plate_text.replace(' ', '_')}_{ts_str}.jpg"
-        cv2.imwrite(img_path, img)
+        cv2.imencode(".jpg", img)[1].tofile(img_path)   # 한글 파일명 보존 (cv2.imwrite는 Windows에서 깨짐)
 
         # DB 저장 (데모에서는 OCR 생략, 텍스트 직접 입력)
         confidence = 0.98

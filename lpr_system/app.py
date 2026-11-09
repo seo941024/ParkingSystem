@@ -216,8 +216,8 @@ def main(page: ft.Page):
                         content=ft.Row([
                             ft.Icon(ft.Icons.WARNING_ROUNDED, color=C_RED, size=16),
                             ft.Column([
-                                ft.Text(a["msg"], size=13, color=C_TEXT),
-                                ft.Text(f"{a['camera']}  {a['ts']}", size=11, color=C_MUTED),
+                                ft.Text(a["msg"], size=13, color="white"),
+                                ft.Text(f"{a['camera']}  {a['ts']}", size=11, color="#CBD5E1"),
                             ], spacing=1, expand=True),
                         ], spacing=8),
                         bgcolor=C_SURF2, border_radius=8,
@@ -1082,7 +1082,7 @@ def main(page: ft.Page):
                     "투표(Voting): 같은 번호판을 여러 프레임에서 읽어 최다 득표 결과를 확정합니다.\n"
                     "Fuzzy 중복 제거: 편집거리 이내의 유사 번호판은 신뢰도 높은 것만 저장합니다.\n"
                     "예) 55가1234 / 555가1234 → 투표+Fuzzy로 55가1234 단 1건만 저장",
-                    size=13, color=C_MUTED,
+                    size=13, color="#CBD5E1",
                 ),
                 bgcolor=C_SURF2, border_radius=8,
                 padding=ft.padding.all(12),

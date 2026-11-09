@@ -101,6 +101,16 @@ python query_tool.py purge 90
 
 ---
 
+앱 메뉴 화면. 저장소의 `parking.db`를 뺀 사본에서 첫 실행 상태로 띄워 찍은 화면이라 기록이 비어 있음. 메뉴 10개 전체는 [lpr_system README](lpr_system/README.md) 참고.
+
+| 영상 처리 | 인식 설정 |
+|---|---|
+| <img src="lpr_system/screenshots/app_video.png" width="420"> | <img src="lpr_system/screenshots/app_settings.png" width="420"> |
+
+| 등록 차량 | 요금 계산 |
+|---|---|
+| <img src="lpr_system/screenshots/app_whitelist.png" width="420"> | <img src="lpr_system/screenshots/app_fee.png" width="420"> |
+
 ## 주요 파라미터 조정
 
 ### pipeline.py
